@@ -1,0 +1,37 @@
+!****************************************!
+!* Necessary input file (input.dat) for *!
+!*            for schro_1d              *!
+!****************************************!
+
+&calculation
+pot = 'harmonic'
+m = 1836.15
+f0 = 50.d0
+T  = 300.d0
+/
+
+! calculation parameters
+! parameter name (default value) : description
+!--------------------------------------------
+! pot ('harmonic') : type of potential well ('harmonic', 'morse', 'quartic', 'double-well')
+! m (1.0)          : mass of the particle in atomic units
+! f0 (10.0)        : characteristic freq. of the harmonic potential in THz
+! V0 (1.0)         : barrier height of double well potential in eV
+! x0 (1.0)         : position of the bottom of the wells in double well potential in bohr
+! A (1.0)          : for quartic potential V(x)=A*x^4 in au
+! Dm (1.0)         : dissociation energy of Morse potential in eV
+! alpha (1.0)      : width of the Morse potential (1/bohr)
+! T (300.0)        : temperature in K
+
+&parameters
+xi = 2.0d0
+n = 500
+k = 12
+/
+
+! 'technical' parameters
+! parameter name (default value) : description
+!--------------------------------------------
+! n(401) : nb of pts in x - discretization grid points
+! k(400) : nb of states taken into account for average
+! xi     : limit of the interval for x in bohr

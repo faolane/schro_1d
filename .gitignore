@@ -1,0 +1,24 @@
+# ignore results files
+*.res
+# ignore test directory
+test/
+#ignore documentation directory
+doc/
+# ignore modules files
+*.mod
+# ignore executable files
+*.exe
+# ignore compilation files for now
+compil
+# ignore gnuplot files
+*.pl
+# ignore script files
+*.sh
+# ignore object files
+*.o
+#ignore ploting script
+*.pl
+#ignore temporary / test files
+fort.*
+#ignore python files
+*.py
