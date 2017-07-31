@@ -4,10 +4,12 @@
 !****************************************!
 
 &calculation
-pot = 'harmonic'
+pot = 'morse'
 m = 1836.15
 f0 = 50.d0
-T  = 300.d0
+T  = 150.d0
+Dm = 1.0
+alpha = 0.5
 /
 
 ! calculation parameters
@@ -24,9 +26,9 @@ T  = 300.d0
 ! T (300.0)        : temperature in K
 
 &parameters
-xi = 2.0d0
-n = 500
-k = 12
+xi = 5.0d0
+n = 1000
+k = 15
 /
 
 ! 'technical' parameters
