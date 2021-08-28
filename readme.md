@@ -7,7 +7,7 @@ schro_1d is a simple solver for the stationary Schrödinger equation for a one d
 
 ## Quick starting guide:
 
-* Type `make` to compil the program
+* Type `make` to compile the program
 
 * Edit the 'input.dat' file to your need
 
@@ -15,6 +15,6 @@ schro_1d is a simple solver for the stationary Schrödinger equation for a one d
 
 ## Copyright
 
-Copyright (C) 2017 Fabien Brieuc.
+Copyright (C) Fabien Brieuc.
 This software is distributed under the terms of the GNU General Public License.
 See the file license.txt for a copy of the license or get it at the following address: http://www.gnu.org/copyleft/gpl.txt
